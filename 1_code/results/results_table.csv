@@ -1,0 +1,7 @@
+Subset,n,Method,Accuracy,Macro F1
+Full test,449,TF-IDF + LR,0.8441,0.844
+Full test,449,SBERT + LR,0.9131,0.9131
+Short (<=6 words),130,TF-IDF + LR,0.8923,0.8907
+Short (<=6 words),130,SBERT + LR,0.9231,0.9226
+Longer (>6 words),319,TF-IDF + LR,0.8245,0.8234
+Longer (>6 words),319,SBERT + LR,0.9091,0.9087

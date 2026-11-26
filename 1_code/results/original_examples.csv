@@ -1,0 +1,7 @@
+member,text,label,pred_tfidf,pred_sbert,tfidf_ok,sbert_ok
+Hashim,Fast delivery and the phone works great.,1,1,1,True,True
+Hashim,The pizza was cold and the waiter ignored us.,0,0,0,True,True
+Mohammed,"Really comfortable headphones, I use them every day.",1,1,1,True,True
+Mohammed,"The battery does not last, very disappointing.",0,0,0,True,True
+Ahmad,Friendly staff and a very clean place.,1,1,1,True,True
+Ahmad,The movie was boring and far too long.,0,0,0,True,True
