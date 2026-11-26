@@ -55,7 +55,7 @@ Sentence-BERT scored higher in every group. On short reviews the gap is small (4
 | Folder | Contents |
 |---|---|
 | `0_proposal` | Project proposal |
-| `1_code` | Notebook (`Group3_Sentiment_Notebook.ipynb`) and `requirements.txt` |
+| `1_code` | Notebook (`Group3_Sentiment_Notebook.ipynb`) |
 | `2_report` | Project report |
 | `3_appendix` | Team appendix |
 | `4_powerpoint` | Presentation slides |
@@ -66,12 +66,8 @@ The notebook was developed in **Jupyter inside Visual Studio Code**, with Python
 
 1. Install Python and the VS Code **Python** and **Jupyter** extensions.
 2. Open the `1_code` folder in VS Code.
-3. Install the packages:
-   ```
-   pip install -r requirements.txt
-   ```
-   The first code cell of the notebook also installs them if they are missing.
-4. Open `Group3_Sentiment_Notebook.ipynb`, select your Python kernel, and click **Run All**.
+3. Open `Group3_Sentiment_Notebook.ipynb`, select your Python kernel, and click **Run All**.
+4. The first code cell installs the packages automatically (numpy, pandas, scikit-learn, sentence-transformers), so no separate install step is needed.
 5. The first run needs internet. It downloads the dataset (small) and the Sentence-BERT model (about 90 MB).
 
 The notebook creates `data/` and `results/` folders next to itself. Results are saved to `results/` as CSV files.
