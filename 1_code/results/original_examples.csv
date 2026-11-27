@@ -1,7 +1,7 @@
 member,text,label,pred_tfidf,pred_sbert,tfidf_ok,sbert_ok
-Hashim,Fast delivery and the phone works great.,1,1,1,True,True
-Hashim,The pizza was cold and the waiter ignored us.,0,0,0,True,True
-Mohammed,"Really comfortable headphones, I use them every day.",1,1,1,True,True
-Mohammed,"The battery does not last, very disappointing.",0,0,0,True,True
-Ahmad,Friendly staff and a very clean place.,1,1,1,True,True
-Ahmad,The movie was boring and far too long.,0,0,0,True,True
+Hashim,Great coffee and the pastries were fresh.,1,1,1,True,True
+Hashim,The package arrived damaged and missing parts.,0,1,0,False,True
+Mohammed,"Super smooth laptop, handles everything easily.",1,1,1,True,True
+Mohammed,The room was noisy and the bed was uncomfortable.,0,0,0,True,True
+Ahmad,Quick check in and very helpful reception.,1,1,1,True,True
+Ahmad,The app keeps crashing every time I open it.,0,1,0,False,True
